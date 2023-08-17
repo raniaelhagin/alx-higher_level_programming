@@ -4,7 +4,7 @@ def best_score(a_dictionary):
     """ returns a key with the biggest integer value """
 
     if a_dictionary:
-        max_val = next(iter(a_dictionary.values()))
+        max_val = list(a_dictionary.values())[0]
 
         for key, value in a_dictionary.items():
 

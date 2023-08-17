@@ -8,7 +8,7 @@ def best_score(a_dictionary):
 
         for key, value in a_dictionary.items():
 
-            if a_dictionary[key] > max_val:
+            if a_dictionary[key] >= max_val:
                 max_val = a_dictionary[key]
                 targeted_key = key
 
